@@ -1,0 +1,7 @@
+.cu-custom-title {
+  padding-left: 7px;
+  text-align: left;
+  color: fff;
+  font-size: 13px;
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+<scroll-view scroll-y class="scrollPage">
+	<cu-custom bgImage="https://image.weilanwl.com/color2.0/plugin/cjkz2329.jpg" TitleAlign="">
+		<view slot="content" class="cu-custom-title" >
+			三生三世
+		</view>
+	</cu-custom>
+	<view class='nav-list' style="margin-top:10px">
+		<navigator open-type="navigate" hover-class='none' url="/pages/basics/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key>
+			<view class="nav-title">{{item.title}}</view>
+			<view class="nav-name">{{item.name}}</view>
+			<text class='cuIcon-{{item.icon}}'></text>
+		</navigator>
+	</view>
+	<view class='cu-tabbar-height'></view>
+</scroll-view>
